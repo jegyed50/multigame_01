@@ -29,6 +29,34 @@ input.onButtonPressed(Button.AB, function () {
         Game2()
     }
 })
+input.onButtonPressed(Button.B, function () {
+    if (ProgramSorszam == 0) {
+        basic.showLeds(`
+            # . . . .
+            # . . . .
+            # . . . .
+            # . . . .
+            # . . . .
+            `)
+    } else if (ProgramSorszam == 1) {
+    	
+    } else {
+        basic.showLeds(`
+            . . # . .
+            . . # . .
+            . . # . .
+            . . # . .
+            . . # . .
+            `)
+        basic.showLeds(`
+            . . . . #
+            . . . . #
+            . . . . #
+            . . . . #
+            . . . . #
+            `)
+    }
+})
 function Game1 () {
     basic.clearScreen()
     basic.showNumber(1)
