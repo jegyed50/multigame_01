@@ -40,8 +40,8 @@ input.onButtonPressed(Button.B, function () {
             `)
     } else if (ProgramSorszam == 1) {
         basic.showLeds(`
-            # . # . .
-            # . # . .
+            . . # . .
+            . . # . .
             . . # . .
             . . # . .
             . . # . .
