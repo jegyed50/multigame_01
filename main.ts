@@ -1,3 +1,12 @@
+input.onButtonPressed(Button.A, function () {
+    if (ProgramSorszam == 0) {
+        music.playMelody("C - C - C - C - ", 120)
+    } else if (ProgramSorszam == 1) {
+        music.playMelody("F - F - F - F - ", 120)
+    } else {
+        music.playMelody("C5 - C5 - C5 - C5 - ", 120)
+    }
+})
 function Game2 () {
     basic.clearScreen()
     basic.showNumber(2)
