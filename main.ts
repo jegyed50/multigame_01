@@ -39,15 +39,14 @@ input.onButtonPressed(Button.B, function () {
             # . . . .
             `)
     } else if (ProgramSorszam == 1) {
-    	
-    } else {
         basic.showLeds(`
-            . . # . .
-            . . # . .
+            # . # . .
+            # . # . .
             . . # . .
             . . # . .
             . . # . .
             `)
+    } else {
         basic.showLeds(`
             . . . . #
             . . . . #
